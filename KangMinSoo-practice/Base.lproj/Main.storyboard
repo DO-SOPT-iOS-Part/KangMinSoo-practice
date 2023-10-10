@@ -25,7 +25,6 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="asdfasdf:" destination="4Ts-W3-4bz" eventType="touchUpInside" id="hpf-eg-DZo"/>
                                     <action selector="backButtonTapped:" destination="4Ts-W3-4bz" eventType="touchUpInside" id="0QU-k5-dMo"/>
                                 </connections>
                             </button>
