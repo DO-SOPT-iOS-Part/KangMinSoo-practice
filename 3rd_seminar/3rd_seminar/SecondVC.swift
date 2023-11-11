@@ -64,8 +64,7 @@ class SecondVC: UIViewController {
     }
     
     private func setCollectionViewConfig() {
-        collectionView.register(CollectionViewCell.self,
-                                forCellWithReuseIdentifier: CollectionViewCell.identifier)
+        collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: CollectionViewCell.identifier)
         collectionView.delegate = self
         collectionView.dataSource = self
     }
